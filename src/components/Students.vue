@@ -13,6 +13,11 @@ export default {
             default: "noma'lum"
         }
     },
+    data(){
+        return {
+            counter: 0
+        }
+    },
     methods:{
         bosildi(){
             alert(`Name: ${this.name}`)
