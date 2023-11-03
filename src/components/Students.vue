@@ -1,7 +1,10 @@
 <template lang="">
-    <div>
+    <div class="thumbail">
         <p @click="bosildi">Name: {{name}}</p>
-        <p @click="counterHandler">Count: {{counter}}</p>
+        <p class="badge badge-secondary" >Count: {{counter}}</p>
+        <button @click="counterHandler" type="button" class="btn btn-primary">
+            Count <span class="badge text-bg-secondary">{{ counter }}</span>
+        </button>
     </div>
 </template>
 <script>
