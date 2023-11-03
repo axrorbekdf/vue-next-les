@@ -5,10 +5,13 @@
         <button @click="counterHandler" type="button" class="btn btn-primary">
             Count <span class="badge text-bg-secondary">{{ counter }}</span>
         </button>
+        <Button />
     </div>
 </template>
 <script>
+import Button from './Button.vue';
 export default {
+    components:{Button},
     props:{
         name:{
             type: String,
