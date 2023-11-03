@@ -1,6 +1,7 @@
 <template lang="">
     <div @click="bosildi">
-        {{name}}
+        <p>Name: {{name}}</p>
+        <p>Count: {{count}}</p>
     </div>
 </template>
 <script>
