@@ -1,7 +1,7 @@
 <template lang="">
-    <div @click="bosildi">
-        <p>Name: {{name}}</p>
-        <p>Count: {{count}}</p>
+    <div>
+        <p @click="bosildi">Name: {{name}}</p>
+        <p @click="counterHandler">Count: {{counter}}</p>
     </div>
 </template>
 <script>
@@ -21,6 +21,9 @@ export default {
     methods:{
         bosildi(){
             alert(`Name: ${this.name}`)
+        },
+        counterHandler(){
+            this.counter ++;
         }
     }
 }
