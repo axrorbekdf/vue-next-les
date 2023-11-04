@@ -17,21 +17,20 @@
                                 </div>
                                </div>
                                <div class="col-12 col-md-4">
-                                <button type="button" class="btn btn-light btn-sm border bg-white m-1">
-                                    <i class="fa-solid fa-filter"></i>
-                                </button>
-                                <button type="button" class="btn btn-light btn-sm border bg-white m-1">
-                                    Download CSV <i class="fa-solid fa-download"></i>
-                                </button>
+                                    <button type="button" class="btn btn-light btn-sm border bg-white m-1">
+                                        <i class="fa-solid fa-filter"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-light btn-sm border bg-white m-1">
+                                        Download CSV <i class="fa-solid fa-download"></i>
+                                    </button>
 
-                                <button type="button" class="btn btn-success btn-sm border m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    Create <i class="fa-solid fa-plus"></i>
-                                </button>
-   
-                                <button type="button" class="btn btn-light btn-sm border bg-white m-1">
-                                    <i class="fa-solid fa-gear"></i>
-                                </button>
-                                
+                                    <button type="button" class="btn btn-success btn-sm border m-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Create <i class="fa-solid fa-plus"></i>
+                                    </button>
+    
+                                    <button type="button" class="btn btn-light btn-sm border bg-white m-1">
+                                        <i class="fa-solid fa-gear"></i>
+                                    </button>
                                </div>
                         </div>
                         <Table :students="searchHandler(students,term)"/>
