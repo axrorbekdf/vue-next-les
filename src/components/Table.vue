@@ -3,6 +3,7 @@
         <thead class="bg-secondary">
             <tr>
                 <th scope="col">#</th>
+                <th scope="col">Avatar</th>
                 <th scope="col">First</th>
                 <th scope="col">Last</th>
                 <th scope="col">Username</th>
@@ -12,6 +13,9 @@
         <tbody>
             <tr v-for="item in students" :key="item.id">
                 <th scope="row">{{ item.id }}</th>
+                <td>
+                    <img src="https://github.com/fluidicon.png" class="card-img-top" style="max-width: 10%;" alt="">
+                </td>
                 <td>{{ item.first }}</td>
                 <td>{{ item.last }}</td>
                 <td>{{ item.username }}</td>
