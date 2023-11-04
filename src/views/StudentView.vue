@@ -62,57 +62,57 @@ export default {
                 },
                 {
                     id: 2,
-                    first: "Ahrorbek",
-                    last: "Davronov",
-                    username: "@admin123"
+                    first: "Husanboy",
+                    last: "Ulugboyev",
+                    username: "@boy_45"
                 },
                 {
                     id: 3,
-                    first: "Ahrorbek",
-                    last: "Davronov",
-                    username: "@admin123"
+                    first: "Sardor",
+                    last: "Temurov",
+                    username: "@karim_123"
                 },
                 {
                     id: 4,
-                    first: "Ahrorbek",
-                    last: "Davronov",
-                    username: "@admin123"
+                    first: "Alisher",
+                    last: "Dosmatov",
+                    username: "@alisher.mu"
                 },
                 {
                     id: 5,
-                    first: "Ahrorbek",
-                    last: "Davronov",
-                    username: "@admin123"
+                    first: "Komalddin",
+                    last: "Aliyer",
+                    username: "@kaskatka"
                 },
                 {
                     id: 6,
-                    first: "Ahrorbek",
-                    last: "Davronov",
-                    username: "@admin123"
+                    first: "Davronjon",
+                    last: "Lutfullayer",
+                    username: "@lutfulla.243"
                 },
                 {
                     id: 7,
-                    first: "Ahrorbek",
-                    last: "Davronov",
-                    username: "@admin123"
+                    first: "Jahongir",
+                    last: "Ermatov",
+                    username: "@ermatov312"
                 },
                 {
                     id: 8,
-                    first: "Ahrorbek",
-                    last: "Davronov",
-                    username: "@admin123"
+                    first: "Temur",
+                    last: "Kamilov",
+                    username: "@temur_admin"
                 },
                 {
                     id: 9,
-                    first: "Ahrorbek",
-                    last: "Davronov",
-                    username: "@admin123"
+                    first: "Ganisher",
+                    last: "Qobilev",
+                    username: "@qobilov.off"
                 },
                 {
                     id: 10,
-                    first: "Ahrorbek",
-                    last: "Davronov",
-                    username: "@admin123"
+                    first: "Amir",
+                    last: "Halilov",
+                    username: "@amir.shoh"
                 }
             ],
             term: ''
@@ -130,7 +130,7 @@ export default {
                 return this.data;
             }
 
-            return data.filter(c => c.first.toLowerCase().indexOf(this.term) > -1);
+            return data.filter(c => c.first.toLowerCase().indexOf(this.term) > -1 || c.last.toLowerCase().indexOf(this.term) > -1);
         }
     }
 }

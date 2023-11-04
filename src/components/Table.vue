@@ -11,10 +11,10 @@
             </tr>
         </thead>
         <tbody>
-            <tr v-for="item in students" :key="item.id">
+            <tr v-for="item in students" :key="item.id" style="vertical-align: middle;">
                 <th scope="row">{{ item.id }}</th>
-                <td>
-                    <img src="https://github.com/fluidicon.png" class="card-img-top" style="max-width: 10%;" alt="">
+                <td style="width: 25px;">
+                    <img src="https://github.com/fluidicon.png" class="card-img-top " style="width: 28px;" alt="">
                 </td>
                 <td>{{ item.first }}</td>
                 <td>{{ item.last }}</td>
