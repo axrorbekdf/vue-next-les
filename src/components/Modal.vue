@@ -22,7 +22,7 @@
                                 <label for="exampleInputUsername1" class="form-label">Username</label>
                                 <input v-model="username" type="text" class="form-control" id="exampleInputUsername1" aria-describedby="UsernameHelp">
                             </div>
-                            <button type="submit" @click="addHandler" class="btn btn-primary">Login</button>
+                            <button type="submit" @click="addHandler" class="btn btn-primary">Create</button>
                         </form>
                     </div>
                 </div>
@@ -31,8 +31,7 @@
     </div>
 </template>
 <script>
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js"
+
 export default {
     data(){
         return {
