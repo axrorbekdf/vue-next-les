@@ -6,7 +6,7 @@ import PageLoader from './mixins/PageLoader'
 import '@/assets/css/style.css'
 
 const app = createApp(App)
-Vue.mixins(PageLoader)
+// createApp.mixin(PageLoader)
 
 app.use(router)
 
