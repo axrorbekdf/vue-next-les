@@ -2775,7 +2775,9 @@
 </template>
 <script>
 export default {
-    
+    created(){
+        console.log(process.env.BACKENT_API_POINT); 
+    }
 }
 </script>
 <style>
