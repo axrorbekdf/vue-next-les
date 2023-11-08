@@ -2777,11 +2777,11 @@
 export default {
     data(){
         return {
-            api: process.env.BACKENT_API_POINT
+            // api: process.env.BACKENT_API_POINT
         }
     },
     mounted(){
-        console.log(this.api)
+        // console.log(this.api)
     }
 }
 </script>
