@@ -2775,8 +2775,13 @@
 </template>
 <script>
 export default {
-    created(){
-        console.log(process.env.BACKENT_API_POINT); 
+    data(){
+        return {
+            api: process.env.BACKENT_API_POINT
+        }
+    },
+    mounted(){
+        console.log(this.api)
     }
 }
 </script>
