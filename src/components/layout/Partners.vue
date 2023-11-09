@@ -1,0 +1,22 @@
+<template>
+    <!-- Partners -->
+    <div class="bg-light-base dark:bg-jacarta-800">
+        <div class="container">
+        <div class="grid grid-cols-2 py-8 sm:grid-cols-5">
+            <a href="#"><img src="img/partners/partner_logo_1.png" alt="partner 1" /> </a>
+            <a href="#"><img src="img/partners/partner_logo_2.png" alt="partner 1" /> </a>
+            <a href="#"><img src="img/partners/partner_logo_3.png" alt="partner 1" /> </a>
+            <a href="#"><img src="img/partners/partner_logo_4.png" alt="partner 1" /> </a>
+            <a href="#"><img src="img/partners/partner_logo_5.png" alt="partner 1" /> </a>
+        </div>
+        </div>
+    </div>
+</template>
+<script>
+export default {
+    
+}
+</script>
+<style>
+    
+</style>
