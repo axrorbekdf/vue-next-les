@@ -20,7 +20,7 @@
             <CTA />
             
             <CTA />
-        </main>
+        </main> 
 
         <!-- YouTube Video Modal -->
         <div
