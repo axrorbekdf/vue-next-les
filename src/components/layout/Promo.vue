@@ -1,111 +1,111 @@
 <template>
      <!-- Promo -->
      <section class="relative py-24 dark:bg-jacarta-800">
-                <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                <img src="img/gradient_light.jpg" alt="gradient" class="h-full w-full" />
-                </picture>
-                <div class="container">
-                <div class="lg:flex lg:justify-between">
-                    <!-- Image -->
-                    <div class="relative lg:w-[55%]">
-                    <img
-                        src="img/patterns/pattern_circle_1.png"
-                        class="absolute -bottom-4 -left-8 animate-fly dark:opacity-10"
-                        alt=""
+        <picture class="pointer-events-none absolute inset-0 -z-10 dark:hidden">
+        <img src="img/gradient_light.jpg" alt="gradient" class="h-full w-full" />
+        </picture>
+        <div class="container">
+        <div class="lg:flex lg:justify-between">
+            <!-- Image -->
+            <div class="relative lg:w-[55%]">
+            <img
+                src="img/patterns/pattern_circle_1.png"
+                class="absolute -bottom-4 -left-8 animate-fly dark:opacity-10"
+                alt=""
+            />
+            <img
+                src="img/patterns/pattern_circle_2.png"
+                class="absolute -top-14 right-0 animate-fly dark:opacity-10 md:-right-12"
+                alt=""
+            />
+            <div class="flex items-center space-x-7">
+                <figure class="relative">
+                <img src="img/crypto-consultant/promo_1.jpg" class="rounded-3xl" alt="" />
+                </figure>
+                <figure
+                class="relative overflow-hidden rounded-3xl before:absolute before:inset-0 before:bg-jacarta-900/25"
+                >
+                <a
+                    href="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    data-bs-toggle="modal"
+                    data-bs-target=".video-lightbox"
+                    class="js-video-modal-trigger absolute top-1/2 left-1/2 flex h-16 w-16 -translate-y-1/2 -translate-x-1/2 items-center justify-center rounded-full border-2 border-white transition-transform will-change-transform hover:scale-90"
+                >
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                    class="h-8 w-8 fill-white"
+                    >
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                        d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
                     />
-                    <img
-                        src="img/patterns/pattern_circle_2.png"
-                        class="absolute -top-14 right-0 animate-fly dark:opacity-10 md:-right-12"
-                        alt=""
-                    />
-                    <div class="flex items-center space-x-7">
-                        <figure class="relative">
-                        <img src="img/crypto-consultant/promo_1.jpg" class="rounded-3xl" alt="" />
-                        </figure>
-                        <figure
-                        class="relative overflow-hidden rounded-3xl before:absolute before:inset-0 before:bg-jacarta-900/25"
-                        >
-                        <a
-                            href="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                            data-bs-toggle="modal"
-                            data-bs-target=".video-lightbox"
-                            class="js-video-modal-trigger absolute top-1/2 left-1/2 flex h-16 w-16 -translate-y-1/2 -translate-x-1/2 items-center justify-center rounded-full border-2 border-white transition-transform will-change-transform hover:scale-90"
-                        >
-                            <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            width="24"
-                            height="24"
-                            class="h-8 w-8 fill-white"
-                            >
-                            <path fill="none" d="M0 0h24v24H0z" />
-                            <path
-                                d="M19.376 12.416L8.777 19.482A.5.5 0 0 1 8 19.066V4.934a.5.5 0 0 1 .777-.416l10.599 7.066a.5.5 0 0 1 0 .832z"
-                            />
-                            </svg>
-                        </a>
-                        <img src="img/crypto-consultant/promo_2.jpg" alt="" />
-                        </figure>
-                    </div>
-                    </div>
+                    </svg>
+                </a>
+                <img src="img/crypto-consultant/promo_2.jpg" alt="" />
+                </figure>
+            </div>
+            </div>
 
-                    <!-- Info -->
-                    <div class="py-10 lg:w-[45%] lg:pl-28">
-                    <h2 class="mb-6 font-display text-3xl text-jacarta-700 dark:text-white">
-                        You Can Save Time & Money In Your Business
-                    </h2>
-                    <p class="mb-8 text-lg leading-normal dark:text-jacarta-300">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-                    </p>
-                    <div class="mb-8 flex space-x-4">
-                        <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        width="24"
-                        height="24"
-                        class="h-8 w-8 shrink-0 fill-accent"
-                        >
-                        <path fill="none" d="M0 0h24v24H0z" />
-                        <path
-                            d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"
-                        />
-                        </svg>
-                        <div>
-                        <span class="mb-3 block font-display text-base font-semibold text-jacarta-700 dark:text-white"
-                            >Team Management</span
-                        >
-                        <span class="dark:text-jacarta-300"
-                            >Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia.</span
-                        >
-                        </div>
-                    </div>
-                    <div class="flex space-x-4">
-                        <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        width="24"
-                        height="24"
-                        class="h-8 w-8 shrink-0 fill-accent"
-                        >
-                        <path fill="none" d="M0 0h24v24H0z" />
-                        <path
-                            d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"
-                        />
-                        </svg>
-                        <div>
-                        <span class="mb-3 block font-display text-base font-semibold text-jacarta-700 dark:text-white"
-                            >Revenue-based payments</span
-                        >
-                        <span class="dark:text-jacarta-300"
-                            >Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia.</span
-                        >
-                        </div>
-                    </div>
-                    </div>
+            <!-- Info -->
+            <div class="py-10 lg:w-[45%] lg:pl-28">
+            <h2 class="mb-6 font-display text-3xl text-jacarta-700 dark:text-white">
+                You Can Save Time & Money In Your Business
+            </h2>
+            <p class="mb-8 text-lg leading-normal dark:text-jacarta-300">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+            </p>
+            <div class="mb-8 flex space-x-4">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                class="h-8 w-8 shrink-0 fill-accent"
+                >
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path
+                    d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"
+                />
+                </svg>
+                <div>
+                <span class="mb-3 block font-display text-base font-semibold text-jacarta-700 dark:text-white"
+                    >Team Management</span
+                >
+                <span class="dark:text-jacarta-300"
+                    >Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia.</span
+                >
                 </div>
+            </div>
+            <div class="flex space-x-4">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                class="h-8 w-8 shrink-0 fill-accent"
+                >
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path
+                    d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm-.997-4L6.76 11.757l1.414-1.414 2.829 2.829 5.656-5.657 1.415 1.414L11.003 16z"
+                />
+                </svg>
+                <div>
+                <span class="mb-3 block font-display text-base font-semibold text-jacarta-700 dark:text-white"
+                    >Revenue-based payments</span
+                >
+                <span class="dark:text-jacarta-300"
+                    >Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia.</span
+                >
                 </div>
-            </section>
-            <!-- end promo -->
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- end promo -->
 </template>
 <script>
 export default {
