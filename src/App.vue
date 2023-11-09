@@ -1,10 +1,10 @@
 <template>
   <header class="d-none">
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/student">Student</RouterLink>
-        <RouterLink to="/news">News Page</RouterLink>
+        <RouterLink class="item" to="/">Home</RouterLink>
+        <RouterLink class="item" to="/about">About</RouterLink>
+        <RouterLink class="item" to="/student">Student</RouterLink>
+        <RouterLink class="item" to="/news">News Page</RouterLink>
       </nav>
   </header>
 
@@ -15,5 +15,9 @@
 import { RouterLink, RouterView } from 'vue-router'
 </script>
 
-<style scoped>
+<style scoped lang="css">
+  
+nav .item{
+    margin: 10px
+}
 </style>
