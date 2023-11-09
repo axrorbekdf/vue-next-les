@@ -4,6 +4,7 @@
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/student">Student</RouterLink>
+        <RouterLink to="/news">News Page</RouterLink>
       </nav>
   </header>
 
