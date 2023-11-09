@@ -16,7 +16,6 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <style scoped lang="css">
-  
 nav .item{
     margin: 10px
 }
