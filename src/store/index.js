@@ -9,8 +9,8 @@ const store = createStore({
     return {
         count: 0,
         user: {
-            loggedIn: false,
-            isSubscribed: false
+            loggedIn: true,
+            isSubscribed: true
         }
     }
   },
@@ -23,12 +23,13 @@ const store = createStore({
     //         state.count --
     //     }
     // },
+  },
+  actions:{},
+  getters:{
     auth(state) {
         return state.user
     }
   },
-  actions:{},
-  getters:{},
   modules:{}
 })
 
