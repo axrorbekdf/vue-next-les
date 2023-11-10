@@ -3,6 +3,9 @@ import HomeView from '../views/HomeView.vue'
 import StudentView from '../views/StudentView.vue'
 import NewsView from '../views/NewsView.vue'
 
+import guest from './middleware/guest'
+import auth from './middleware/auth'
+import isSubscribed from './middleware/isSubscribed'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
