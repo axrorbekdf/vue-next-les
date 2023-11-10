@@ -26,12 +26,23 @@ const router = createRouter({
     {
       path: '/student',
       name: 'student',
-      component: StudentView
+      component: StudentView,
+      meta: {
+          middleware: [
+              guest
+          ]
+      }
     },
     {
       path: '/news',
       name: 'news',
-      component: NewsView
+      component: NewsView,
+      meta: {
+        middleware: [
+            auth,
+            isSubscribed
+        ]
+    }
     }
   ]
 })
