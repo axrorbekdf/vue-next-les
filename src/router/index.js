@@ -6,6 +6,7 @@ import NewsView from '../views/NewsView.vue'
 import guest from './middleware/guest'
 import auth from './middleware/auth'
 import isSubscribed from './middleware/isSubscribed'
+import middlewarePipeline from './middlewarePipeline'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
