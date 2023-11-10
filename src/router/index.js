@@ -1,11 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import store from '../store'
+
 import HomeView from '../views/HomeView.vue'
 import StudentView from '../views/StudentView.vue'
 import NewsView from '../views/NewsView.vue'
 
-import guest from './middleware/guest'
-import auth from './middleware/auth'
-import isSubscribed from './middleware/isSubscribed'
+import guest from '../middleware/guest'
+import auth from '../middleware/auth'
+import isSubscribed from '../middleware/isSubscribeed'
 import middlewarePipeline from './middlewarePipeline'
 
 const router = createRouter({
