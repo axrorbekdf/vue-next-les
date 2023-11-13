@@ -5,15 +5,10 @@ import PageLoader from './mixins/PageLoader'
 import store from './store'
 import { createI18n } from "vue-i18n";
 // import translations
-import uz from "./locales/uz.json";
-import en from "./locales/en.json";
+import locales from "./locales";
 
 // configure i18n
-const i18n = createI18n({
-  locale: "uz",
-  fallbackLocale: "uz",
-  messages: { uz, en },
-});
+const i18n = createI18n(locales);
 
 import '@/assets/css/style.css'
 
