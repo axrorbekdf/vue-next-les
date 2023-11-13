@@ -1,6 +1,6 @@
 import uz from './uz.json'
 import en from './en.json'
-import {getItem} from '@/helpers/persistaneStorage'
+import {getItem} from '@/helper/persistaneStorage'
 
 export default {
   locale: getItem('locale'),
