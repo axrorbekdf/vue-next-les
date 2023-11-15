@@ -26,6 +26,7 @@
     },
     methods: {
       loadUserData(){
+
         return new Promise((resolve) => {
           setTimeout(() => {
             resolve({
@@ -42,7 +43,7 @@
   }
   </script>
   
-  <style>
+  <style scoped> 
   .profile-card {
     width: 100%;
     max-width: 700px;

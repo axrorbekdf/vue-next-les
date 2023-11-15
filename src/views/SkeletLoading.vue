@@ -1,4 +1,5 @@
 <template>
+
     <Suspense>
     <template #default>
       <ProfileCard />
@@ -9,9 +10,9 @@
   </Suspense>
 </template>
 <script>
-// import Suspense from 'App'
-import ProfileCard from '@/components/ProfileCard.vue';
-import ProfileCardSkeleton from '@/components/ProfileCardSkeleton.vue'
+
+import ProfileCard from '../components/ProfileCard.vue';
+import ProfileCardSkeleton from '../components/ProfileCardSkeleton.vue'
 export default {
     
 }
