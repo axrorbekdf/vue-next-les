@@ -4,6 +4,7 @@ import store from '../store'
 import HomeView from '../views/HomeView.vue'
 import StudentView from '../views/StudentView.vue'
 import NewsView from '../views/NewsView.vue'
+import SkeletLoading from '../views/SkeletLoading.vue'
 
 import guest from '../middleware/guest'
 import auth from '../middleware/auth'
@@ -41,11 +42,16 @@ const router = createRouter({
       name: 'news',
       component: NewsView,
       meta: {
-        middleware: [
-            auth,
-            isSubscribed
-        ]
-    }
+          middleware: [
+              auth,
+              isSubscribed
+          ]
+      }
+    },
+    {
+      path: '/loading',
+      name: 'loading',
+      component: SkeletLoading,
     }
   ]
 })
