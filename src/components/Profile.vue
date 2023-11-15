@@ -1,6 +1,14 @@
 <template>
-    <div>
-        
+    <div class="profile-card">
+        <div class="profile-image">
+        <img class="profile-image__border" src="../assets/img-border.png" />
+        <img class="profile-image__img" :src="userData.pic" />
+        </div>
+        <div class="profile-info">
+        <span> Written By </span>
+        <h3>{{ userData.name }}</h3>
+        <p>{{ userData.bio }}</p>
+        </div>
     </div>
 </template>
 <script>
