@@ -1,13 +1,16 @@
 <template>
     <Suspense>
-        <template #default>
-        <profile />
-        </template>
-        <template #fallback> Loading... </template>
-    </Suspense>
+    <template #default>
+      <ProfileCard />
+    </template>
+    <template #fallback>
+      <ProfileCardSkeleton />
+    </template>
+  </Suspense>
 </template>
 <script>
-import Profile from '../components/Profile.vue';
+import ProfileCard from '@/components/ProfileCard.vue';
+import ProfileCardSkeleton from '@/components/ProfileCardSkeleton.vue'
 export default {
     
 }
